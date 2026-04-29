@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native builds
+ios/
+android/
+
+# IDE
+.vscode/
+.idea/
+.agent/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# EAS
+eas-credentials/
+
+# Internal notes
+CLAUDE.md
+eksikler.md
+implementation_plan.md
+namazapi.md
+sorunlar.md
+swagger.md
+task.md
